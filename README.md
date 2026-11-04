@@ -624,9 +624,6 @@ Sugestões e melhorias são bem-vindas.
 4. Faça o `push` para a branch (`git push origin feature/minha-feature`).
 5. Abra um **Pull Request (PR)**.
 
-> [!IMPORTANT]
-> 📝 **Regras:** mantenha a separação em camadas (páginas → `auth/utils/carros` → `api.js`), não chame `fetch` direto nas páginas e atualize os diagramas em `docs/` quando alterar o modelo.
-
 ---
 
 ## 📄 Licença
