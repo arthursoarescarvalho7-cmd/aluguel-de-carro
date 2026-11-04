@@ -29,7 +29,7 @@
 
 [![Versão](https://img.shields.io/badge/Versão-v1.1.0-blue)](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/releases)
 ![Status](https://img.shields.io/badge/Status-Protótipo_funcional-success)
-![Disciplina](https://img.shields.io/badge/Disciplina-DIW_–_Lab_02-informational)
+![Disciplina](https://img.shields.io/badge/Disciplina-DIW-informational)
 [![Licença](https://img.shields.io/badge/Licença-MIT-green)](#-licença)
 
 ![HTML5](https://img.shields.io/badge/HTML5-007ec6?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-007ec6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-007ec6?style=for-the-badge&logo=javascript&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-007ec6?style=for-the-badge&logo=bootstrap&logoColor=white) ![JSON Server](https://img.shields.io/badge/JSON_Server-0.17.4-007ec6?style=for-the-badge&logo=json&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-18+-007ec6?style=for-the-badge&logo=nodedotjs&logoColor=white) ![GitHub repo size](https://img.shields.io/github/repo-size/SEU_USUARIO/SEU_REPOSITORIO?style=for-the-badge&logo=files) ![GitHub last commit](https://img.shields.io/github/last-commit/SEU_USUARIO/SEU_REPOSITORIO?style=for-the-badge&logo=clockify)
