@@ -3,7 +3,7 @@
 
 ---
 
-# 🚗 SuaLocadora – Sistema de Aluguel de Carros 👨‍💻
+# 🚗 SearchCar – Sistema de Aluguel de Carros 👨‍💻
 
 > [!NOTE]
 > Sistema web para **gestão de aluguéis de automóveis**: o cliente escolhe um carro disponível em um catálogo dinâmico e acompanha o status do pedido; o agente (empresa ou banco) analisa, avalia e executa o contrato. Tudo com **HTML, CSS e JavaScript puro**, interface em **Bootstrap 5** e dados persistidos em uma **API REST simulada com JSON Server**.
@@ -333,9 +333,6 @@ Geradas automaticamente pelo JSON Server a partir do `db.json`:
 * **Git**
 * Navegador atual (Chrome, Edge, Firefox ou Safari)
 
-> [!IMPORTANT]
-> Não abra os `.html` com duplo clique (`file://`). O projeto usa **módulos JavaScript**, que o navegador bloqueia nesse modo. Use sempre o Live Server (ou equivalente).
-
 ---
 
 ### 🔑 Configuração (Variáveis de Ambiente)
@@ -355,8 +352,8 @@ Se mudar a porta do JSON Server (ex.: `--port 3001`), altere `API_URL` para o me
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/arthursoarescarvalho7-cmd/aluguel-de-carro.git
+cd aluguel-de-carro
 ```
 
 2. **Instale o JSON Server (versão 0.17.4):**
@@ -611,12 +608,9 @@ Para uma evolução futura: testes unitários das funções puras (`validarCPF`,
 
 ## 👥 Autores
 
-| 👤 Nome | 🖼️ Foto | :octocat: GitHub | 💼 LinkedIn | 📤 Gmail |
-|---------|----------|-----------------|-------------|-----------|
-| Arthur SEU_SOBRENOME | <div align="center"><img src="docs/img/foto-arthur.png" width="70px" height="70px"></div> | <div align="center"><a href="https://github.com/SEU_USUARIO"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | <div align="center"><a href="https://www.linkedin.com/in/SEU_LINKEDIN"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a></div> | <div align="center"><a href="mailto:SEU_EMAIL@gmail.com"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="50px" height="50px"></a></div> |
-
-> [!TIP]
-> 💡 **Dica:** Escolha uma foto profissional, preferencialmente de rosto, evitando imagens com baixa qualidade, filtros excessivos ou elementos distrativos. Se for um trabalho em grupo, acrescente uma linha por integrante.
+| 👤 Nome | :octocat: GitHub | 💼 LinkedIn | 📤 Gmail |
+|---------|-----------------|-------------|-----------|
+| Arthur Soares de Carvalho | <div align="center"><a href="https://github.com/SEU_USUARIO"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | <div align="center"><a href="https://www.linkedin.com/in/arthur-carvalho-3a1s0d7c"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a></div> | <div align="center"><a href="mailto:arthursoarescarvalho7@gmail.com"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="50px" height="50px"></a></div> |
 
 ---
 
@@ -632,15 +626,6 @@ Sugestões e melhorias são bem-vindas.
 
 > [!IMPORTANT]
 > 📝 **Regras:** mantenha a separação em camadas (páginas → `auth/utils/carros` → `api.js`), não chame `fetch` direto nas páginas e atualize os diagramas em `docs/` quando alterar o modelo.
-
----
-
-## 🙏 Agradecimentos
-
-Em ambiente acadêmico, citar fontes e inspirações é crucial (integridade acadêmica). Gostaria de agradecer:
-
-* [**Engenharia de Software PUC Minas**](https://www.instagram.com/engsoftwarepucminas/) - Pelo apoio institucional, estrutura acadêmica e fomento à inovação e boas práticas de engenharia.
-* [**Prof. João Paulo Carneiro Aramuni**](https://github.com/joaopauloaramuni) - Pelo enunciado, pelo template de documentação e pelos ensinamentos da disciplina de **Desenvolvimento de Interfaces Web**.
 
 ---
 
