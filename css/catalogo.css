@@ -1,0 +1,119 @@
+:root {
+  --verde-escuro: #2d363f;
+  --verde-destaque: #5a6169;
+  --borda-card: #dcdcdc;
+  --cor-texto-suave: #6c6c6c;
+}
+
+.texto-suave { color: var(--cor-texto-suave); }
+
+.barra-filtro {
+  background-color: var(--verde-escuro);   
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;                   
+  margin: 0;
+}
+
+.titulo-pagina {
+  color: var(--verde-escuro);
+  font-weight: 700;
+  font-size: 2rem;                         
+  margin: 0;
+}
+
+.btn-reservar {
+  background-color: var(--verde-destaque);
+  color: var(--verde-escuro);
+  border: 0;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+}
+.btn-reservar:hover {                      
+  background-color: #b1b2b4;
+  color: var(--verde-escuro);
+}
+
+.grade-carros {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-flip {
+  perspective: 1000px;                     
+}
+
+.card-flip-inner {
+  display: grid;                           
+  height: 100%;
+  transform-style: preserve-3d;            
+  transition: transform 0.6s;              
+}
+
+.card-flip.virado .card-flip-inner {
+  transform: rotateY(180deg);              
+}
+
+.face {
+  grid-area: 1 / 1;                        
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid var(--borda-card);
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  backface-visibility: hidden;             
+  -webkit-backface-visibility: hidden;     
+}
+
+.verso {
+  transform: rotateY(180deg);              
+}
+
+.area-imagem {
+  aspect-ratio: 16 / 10;
+  padding: 1rem;
+}
+
+.corpo-face {
+  display: flex;
+  flex-direction: column;
+  flex: 1;                                 
+  padding: 1rem 1.25rem 1.25rem;
+  text-align: center;                      
+}
+
+.titulo-carro {
+  color: var(--verde-escuro);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;               
+  margin-bottom: 0.25rem;
+}
+.categoria-carro { font-size: 0.85rem; color: #444444; }
+.preco-carro { margin-bottom: 1rem; }
+.preco-carro strong { font-size: 1.4rem; }
+.preco-carro span { color: var(--cor-texto-suave); font-size: 0.85rem; }
+
+.btn-link { color: var(--verde-escuro); }  
+
+.lista-detalhes {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 1rem;
+  text-align: left;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+.lista-detalhes dt { color: var(--cor-texto-suave); font-weight: 400; }
+.lista-detalhes dd { margin: 0; font-weight: 500; }
+
+.body {
+  background-color: #adc2d6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-flip-inner { transition: none; }
+}
